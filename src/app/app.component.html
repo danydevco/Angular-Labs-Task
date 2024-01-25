@@ -1,0 +1,5 @@
+<div class="container">
+    <div>Mis Tareas</div>
+    <app-new-task (newTask)="newTask($event)"></app-new-task>
+    <app-list-task [tasks]=tasks (deleteTask)="delete($event)"></app-list-task>
+</div>

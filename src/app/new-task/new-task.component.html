@@ -1,0 +1,13 @@
+<div>
+    <div class="">
+        <label for="title">Título</label>
+        <input type="text" id="title" [(ngModel)]="task.name">
+    </div>
+    <div class="">
+        <label for="description">Descripción</label>
+        <input type="text" id="description" [(ngModel)]="task.description">
+    </div>
+</div>
+
+<button (click)="create()">Nueva tarea</button>
+
